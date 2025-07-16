@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import ErrorBoundary from "./components/ErrorBoundary";
+import { Analytics } from "@vercel/analytics/react"; 
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -22,6 +23,7 @@ const queryClient = new QueryClient({
 });
 
 const App = () => (
+  <>
   <ErrorBoundary>
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
@@ -37,6 +39,9 @@ const App = () => (
       </TooltipProvider>
     </QueryClientProvider>
   </ErrorBoundary>
+
+  <Analytics />
+  </>
 );
 
 export default App;
