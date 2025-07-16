@@ -47,5 +47,5 @@ Feel free to fork the repo and open a pull request.
 
 ## Live Demo
 Check out the live app here:
-api-http-explorer.vercel.app
+[api-http-explorer.vercel.app](https://api-http-explorer.vercel.app/)
 
