@@ -45,7 +45,7 @@ const Footer = () => {
 
             {/* Personal Credit */}
             <div className="text-gray-400">
-              <span className="italic">Crafted with curiosity by Aakashsingh Rajput</span>
+              <span>Crafted with curiosity by Aakashsingh Rajput</span>
             </div>
           </div>
         </div>
@@ -55,16 +55,7 @@ const Footer = () => {
           <p className="text-gray-500 text-xs text-center md:text-left">
             © 2025 API HTTP Explorer. Powered by React, TypeScript & Tailwind CSS.
           </p>
-           <div className="flex items-center gap-4 text-xs text-gray-400">
-            <a
-              href="https://github.com/Aakashsingh-Rajput/API-HTTP-Explorer"
-              target="_blank"
-              className="hover:text-white transition-colors"
-            >
-              GitHub
-            </a>
-          </div>
-          
+                 
         </div>
       </div>
     </footer>
